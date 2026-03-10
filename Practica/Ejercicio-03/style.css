@@ -1,0 +1,7 @@
+.toast {
+    box-shadow: 0 4px 15px rgba(223, 22, 183, 0.488);
+    transition: transform 0.3s ease;
+}
+.toast:hover {
+    transform: translateY(-5px);
+}

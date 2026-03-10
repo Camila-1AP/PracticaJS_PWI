@@ -1,0 +1,4 @@
+.toast {
+    box-shadow: 0 4px 15px rgba(54, 27, 203, 0.263);
+    transition: transform 0.3s ease;
+}

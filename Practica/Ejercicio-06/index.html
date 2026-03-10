@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio-06</title>
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+<link rel="stylesheet" href="style.css">
+    </head>
+<body>
+
+      <div class="card container mt-5 text-center">
+  <div class="card-header">
+    Ejercicio 06 - Manipulando el DOM con JavaScript
+  </div>
+  <div class="card-body">
+    <h5 class="card-title">Ingrese un número!</h5>
+    <p class="card-text">Se validará si es perfecto: </p>
+
+    <div class="mb-3 d-flex justify-content-center">
+  <label for="inputNumerico" class="form-label"></label>
+  <input type="number" 
+         class="form-control w-25 text-center" 
+         id="inputNumerico" 
+         placeholder="0"
+         min="0" 
+         max="100" 
+         step="1">
+</div>
+
+<p id="resultado" class="card-text"></p>
+<p class="card-text">Revise la consola!</p>
+    <button id="validarNumero" class="btn btn-info text-white ">Validar</button>
+
+
+    
+  </div>
+</div>
+
+    
+   
+    <script src="script.js"></script>
+</body>
+</html>

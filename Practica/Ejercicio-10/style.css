@@ -1,0 +1,5 @@
+#inputTeclado:focus {
+    border-color: #199e7b;
+    box-shadow: 0 0 10px rgba(108, 190, 167, 0.5);
+    outline: none;
+}

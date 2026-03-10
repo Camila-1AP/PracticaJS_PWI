@@ -1,0 +1,12 @@
+
+#inputNumerico {
+
+    border: 2px solid grey;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+#inputNumerico:focus {
+    border-color: #002F6C; 
+    box-shadow: 0 0 8px rgba(0, 47, 108, 0.25);
+    outline: none;
+}

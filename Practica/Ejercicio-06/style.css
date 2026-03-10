@@ -1,0 +1,11 @@
+#validarNumero {
+    background-color: #6e1042; 
+    animation: palpitar 1.5s infinite; 
+    border: #6e1042;
+}
+
+@keyframes palpitar {
+    0% { opacity: 1; }
+    50% { opacity: 0.5; }
+    100% { opacity: 1; }
+}
